@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "gh-pages": "^4.0.0",
-    "predeploy": "npm run build",
-"deploy": "gh-pages -d dist"
+    "predeploy": "formulario-vite",
+"deploy": "gh-pages -d index.html"
   }
 }
