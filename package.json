@@ -5,3 +5,9 @@
 "deploy": "gh-pages -d index.html"
   }
 }
+
+"homepage": "https://imverickz.github.io/Project-React/",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+},
